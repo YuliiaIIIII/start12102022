@@ -1,0 +1,24 @@
+header{
+background-color: coral;
+}
+
+body{
+    background-color: moccasin;
+
+}
+sup{
+    color: red;
+}
+table{
+    background-color: ivory; color: black; 
+    width: 100%; text-align: center;
+    border-style: groove;
+    border-color: rgb(86, 9, 158);
+}
+footer{
+    background-color: lightsalmon;
+    font-size: 18px;
+}
+p {
+    font-size: 22px; text-align: center;
+}

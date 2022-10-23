@@ -5,53 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+
     <header>
         <nav>
-            <a href="#">Form</a>
-            <a href="#">Table</a>
+            <a href="#personalData">Form</a> <!--посилання якір на елемент сторінки "Форма персональних даних"-->
+            <a href="#table">Table</a> <!--посилання якір на елемент сторінки "таблиця успішності студентів"-->
+            <a href="index.html">Reload page</a>
         </nav>
     </header>
-
+<br><br>
+<a name="personalData">Fill the form</a> <br>
 <form action="">  
     <section>
-        <label for="name">Your name</label>
-        <input id="name" type="text">
+        <label for="name">Your name</label><br>
+        <input id="name" placeholder="type your name" type="text" maxlength="30" required> <sup>*</sup>
         <br>
-        <br>
-        <label for="surname">Your surname</label>
-        <input id="surname" type="text">
-    </section>
+        <label for="surname">Your surname</label><br>
+        <input id="surname" placeholder="type your surname" type="text" maxlength="30" required> <sup>*</sup>
+        <label for="email">Enter your e-mail</label>
+        <input type="email" id="email" placeholder="type your e-mail" name="email" maxlength="30"> 
          <br>
-    <section>
-        <label for="pass">Password</label>
-        <input id="pass" type="password">
-    </section>
-        <br>    
-    <section>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" > 
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female"> 
-
+        <label for="pass">Password</label><br>
+        <input id="pass" type="password" minlength="6" maxlength="25" required > <sup>*</sup>
     </section>
     <br>
     <section>
         Date of birth
-        <br><br>
-        <input type="date">
+        <br>
+        <label for="datemin"></label>
+        <input type="date" id="datemin" name="datemin" min="2004-01-01">
+        
     </section>
     <br>
     <section>
+        Do you have a pets?
+        <br><br>     
+            <label for="yes">Yes</label>
+            <input type="radio" name="answer" id="yes" > 
+            <label for="no">No</label>
+            <input type="radio" name="answer" id="no"> 
+        <br>
+            <input type="checkbox" id="dog" name="dog" value="Dog">
+            <label for="dog">I have a dog</label><br>
+            <input type="checkbox" id="cat" name="cat" value="Cat">
+            <label for="cat">I have a cat</label><br>
+            <input type="checkbox" id="parrot" name="parrot" value="Parrot">
+            <label for="parrot">I have a parrot</label><br>
+            <input type="checkbox" id="other" name="other" value="Other">
+            <label for="parrot">I have a other pet</label><br>
+    <br>
+        How old is your pet? <br><br>
+        <select name="" id="">
+            <option value="001">Less than 1 year</option>
+            <option value="002">1 - 3 years</option>
+            <option value="003">4 - 8 years</option>
+            <option disabled value="004">8 - 10 years</option>
+            <option selected value="005">More than 8 years</option>
+        </select>
+    </section>
+    <br>
+    <section>
+        <label for="text-block">TextArea</label><br>
+        <textarea name="" id="text-block" cols="40" rows="5">Type your text here</textarea>
+    </section>
+    <section>
         <input type="submit">
+        <input type="reset">
+    </section>
+    <br><br>
+    <section>
+        <img src="images/kaneKorso.jpg" alt="Dog picture">
+        <img src="https://screenbeauty.com/image/wallpapers/manul-wool-fur-37123.jpg" alt="Cat picture" width="280" height="180">
+        <img src="images/Parrot.jpg" alt="Parrot picture" height="180">
+    </section>
+    <br><br>
+    <section>
+        <audio controls>
+            <source src="">
+        </audio>
+        <br><br>
+        <video controls>
+            <source src="">
+        </video>
     </section>
         </form>
 <br>
 <br>   
-    <table>
+        <p> 
+            <a name="table">Таблиця успішності студентів</a>
+        </p>
+    <table border="2"> <!-- не виходить відобразити внутрішні границі таблиці через css -->
         <thead>
+            <tr>
             <th>
                 Ім'я студента
             </th>
@@ -61,71 +108,73 @@
             <th>
                 Курс
             </th>
-            <tbody>
-                <tr>
-                    <td>
-                        Кузьменко В.І.
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        2
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Зайчук Т.Л.
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        3
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Сіренко Д.О.
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        1
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Зотова Н.А.
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        1
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Біляєв С.В.
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        3
-                    </td>
-                </tr>
-            </tbody>
+        </tr>
         </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Кузьменко В.І.
+                </td>
+                <td>
+                    Done 3/3
+                </td>
+                <td>
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Зайчук Т.Л.
+                </td>
+                <td>
+                    In a progress 1/3
+                </td>
+                <td>
+                    3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Сіренко Д.О.
+                </td>
+                <td>
+                    In a progress 2/3
+                </td>
+                <td>
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Зотова Н.А.
+                </td>
+                <td>
+                    Done 3/3
+                </td>
+                <td>
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Біляєв С.В.
+                </td>
+                <td>
+                    Done 3/3
+                </td>
+                <td>
+                    3
+                </td>
+            </tr>
+        </tbody>
     </table>
-    
+    <br><br>
+
+        <p>Thank you for attention!</p> <br>
     <footer>
-        Thank you for attention!
-        <a href="#">Back to navigation</a>
-        <a href=""></a>
-        <a href="#" target="_blank">Open in a new tab</a>
+        
+        <a href="#top">Back to navigation</a><br>
+        <a href="#" target="_blank">Open in a new tab</a><br>
     </footer>
 </body>
 </html>
