@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box; 
+}
+body,html,.bg-yellow input{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+header{
+    padding: 17px 0 23px;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.bg-yellow-mail,
+.bg-yellow{
+    background-color: #FAC960;
+    color: #8A6D2F;
+
+}
+
+.bg-grey,footer{
+    background-color: #F2F2F2;
+}
+
+.logo,
+.links{
+    display: inline-block;
+    width: 468px;
+    
+}
+.links{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.links img{
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.logo{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+h2,h3,h4{
+    font-weight: 400;
+}
+h2, h3{
+    margin: 0;
+}
+h2{
+    font-size: 44px;
+    padding: 112px 0 14px 0;
+}
+h3{
+    font-size: 43px;
+}
+h4{
+    font-size: 37px;
+    margin: 0 0 35px 0;
+}
+   
+p{
+    font-size: 23px;
+}
+.size22{
+    font-size: 22px;
+    
+}
+p,
+.size22{
+    width: 819px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.4);
+}
+.linksdown{
+    padding: 24px 0 81px 0;
+}
+#color{
+    background-color: #8A6D2F;
+    color: white;
+    padding: 11px;
+    width: 240px;
+   
+}
+input{
+    display: inline-block;
+    border: 0;
+    font-size: 30px;
+    height: 54px;
+    padding: 16px;
+    width: 560px;
+}
+.bg-yellow-mail form{
+    padding: 43px 0 118px 0;
+    width: 807px;
+    margin: 0 auto;
+}
+
+.bg-grey,
+.bg-white{
+    color: rgba(0, 0, 0, 0.56);
+}
+.logo-center,
+.link-line{
+    display: inline-block;
+    width: 940px;
+}
+.bg-white h4,
+.bg-grey h4{
+    padding-top: 80px;
+}
+.bg-yellow h4{
+    padding-top: 58px;
+}
+.bg-grey p{
+    margin-bottom: 60px;
+}
+.bg-white p{
+    margin-bottom: 36px;
+}
+.text-center{
+    padding-bottom: 81px;
+}
+.mobile{
+    padding-bottom: 20px;
+}
+.bg-yellow input{
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 108px;
+    padding: 0 10px;
+    width: 61px;
+    height: 22px;
+    font-size: 17px;
+    border: 1px;
+    border-radius: 2px;
+    border-color: #758696;
+    color: #999999;
+}
+footer{
+    padding: 81px 0;
+    
+}
+footer ul{
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 11px;
+    margin-left: 11px;
+}
