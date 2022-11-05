@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.diia,
+.square,
+.circle{
+    width: 512px;
+    height: 512px;
+}
+.square,
+.circle{
+    margin: 0 auto;
+}
+.diia{
+    position: relative;
+    right: 441px;
+    background-color: black;
+    margin: 100px auto 0; 
+    padding: 129px 0 0 0;
+    text-align: center;
+    z-index: 0;
+}
+.blue,
+.yellow{
+    height: 30px;
+    width: 80px;
+}
+.blue{
+    background-color: #2137FC;
+    margin: 33px auto 0;
+    border-radius: 6px 6px 0 0;
+} 
+.yellow{
+    background-color: #FFD84B;
+    margin: 0 auto 0;
+    border-radius: 0 0 6px 6px;
+}
+.square{
+    position: relative;
+    bottom: 117px;
+    background-color: #FFCE22;
+    z-index: 1;
+}
+
+.glyph{
+    text-align: center; 
+    transform: rotate(-0.11deg);
+    position: relative;
+    bottom: 132px;
+}
+
+.circle{
+    position: relative;
+    left: 423px;
+    top: -210px;
+    background-color: #FFF;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
+}
+.yellowcircle{
+    position: relative;
+    height: 444px;
+    width: 444px;
+    margin: 34px 34px;
+    background-color: #FFCE22;
+    border-radius: 50%;
+}
+.wave{
+    text-align: center; 
+    position: relative;
+    bottom: 24px;
+    transform: rotate(-0.11deg);
+    z-index: 2;
+}
