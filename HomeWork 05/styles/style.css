@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+h2{
+    font-size: 47px;
+    font-weight: 700;
+  }
+h3{
+    font-size: 36px;
+    font-weight: 600;
+  }
+h4{
+    font-size: 27px;
+  }
+h5{
+    font-size: 21px;
+  }
+p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+header{
+    position: sticky;
+    top: 0;
+    padding: 0 12px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    padding: 0 0 0 27px;
+    color: #000;
+    
+}
+a:hover{
+    text-decoration: underline; 
+    color: darkviolet;
+}
+.landing{
+    padding-top: 19px;
+    float: left;
+    font-size: 27px;
+    font-weight: 600;
+}
+.menu,
+.menuButton{
+    float: right;
+    font-size: 21px;
+    font-weight: 500;
+}
+.menu{
+    padding: 40px 0 35px;
+}
+.menuButton{
+    padding: 25px 0 26px 32px;
+}
+.buyNow{
+    background-color: #fff; 
+    border: 1px;
+    border-color: #2203E4;
+    border-style: solid;
+    color: #2203E4; 
+    padding: 14px 16px 8px;
+}
+
+.mobile,
+.authors,
+.opinions,
+.a-title,
+h3,h4,h5,
+p{
+    margin: 0 auto;
+}
+.mobile{
+    width: 1100px;
+}
+.title,
+.description,
+.autorsCheck{
+    float: left;
+}
+.iphone{
+    float: right;
+}
+.authors,
+.forWho,
+.demo,
+.opinions,
+.startWith{
+    text-align: center;
+}
+.authors{
+    width: 1190px;  
+}
+.a-title{
+    width: 611px;
+}
+.avatar{
+    padding: 138px 43px 10px 0;
+}
+.infoMark{
+    text-align: left;
+}
+.avatar,
+.infoMark,
+.demoInfo{
+    float: left;
+}
+.list,
+.demoIntro{
+    float: right;
+    
+}
+.gregory>h5,
+.henry>h5{
+    color: #DEA405;
+}
+.gregory>p,
+.henry>p{
+    color: #FFBE0B;
+}
+
+.forWho{
+    margin: 143px auto 63px;
+    background-color: #0062FF;
+    margin: 143px auto 0;
+}
+.demo{
+    width: 1103px;
+    margin: 63px auto 130px;
+}
+.h-demo{
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-bottom: 12px;
+}
+.videoDemo{
+    padding-top: 44px;
+}
+.demoInfo{
+    padding-top: 11px;
+}
+.d-info{
+    padding-bottom: 24px;
+}
+.d-info>h5{
+    padding-bottom: 12px;
+}
+.opinions{
+    background-color: #FFBE0B;
+    padding-top: 67px;
+    padding-bottom: 12px;
+}
+.jones{
+    width: 702px;
+    height: 230px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.startWith{
+    width: 951px;
+    margin: 89px auto 104px;
+}
