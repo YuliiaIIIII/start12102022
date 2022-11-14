@@ -87,7 +87,7 @@ a:hover{
 .buttonAuthors:hover,
 .buttonCheck:hover,
 .addTo:hover,
-.want:hover,
+.want-button:hover,
 .waiting:hover{
     text-decoration: underline;
     color: rgb(26, 9, 90);
@@ -185,13 +185,16 @@ button{
 .social>a{
     padding: 0 19px 0 0;
 }
+.user-left,
+.user-right{
+    display: inline-block;
+}
 .avatar,
 .infoMark,
 .demoInfo,
 .think,
 .jones-info,
-.students,
-.agency{
+.user-left{
     float: left;
 }
 .list{
@@ -201,8 +204,7 @@ button{
 .list,
 .demoIntro,
 .arrow,
-.freelaners,
-.marketers{
+.user-right{
     float: right; 
 }
 .gregory>h5,
@@ -225,19 +227,34 @@ button{
 .forWho{
     margin: 143px auto 63px;
     background-color: #0062FF;
-    margin: 143px auto 0;
-    padding: 71px 0;
-    
+    padding: 71px 0 0 0;
 }
-
-.white{
+.white,
+.white8px{
     color: #fff;
+}
+p.white{
+    margin-top: 16px;
+}
+.wrapper-users{
+    margin: 64px auto;
 }
 .users{
     width: 1262px;
     text-align: left;
+    margin-bottom: 46px;
 }
-.want{
+.user-left>img,
+.user-right>img{
+    display: inline-block;
+}
+.user-left{
+    margin-right: 48px;
+}
+.white8px{
+    margin-top: 8px;
+}
+.want-button{
     background-color: #fff;
     padding: 10px 16px;
     color: #2203E4;
