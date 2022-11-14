@@ -15,7 +15,7 @@
     <header class="clearfix">
         <div class="landing">Landingpage <br>Logotype</div>
         <div class="menuButton">
-            <button class="buyNow">Buy now!</button>
+            <button class="buyNow" type="button">Buy now!</button>
         </div>
             <div class="menu">   
                 <a href="#">Authors</a>
@@ -28,19 +28,22 @@
     </header>
 
     <section class="mobile clearfix">
-        <div class="title">
-            <h2>Write your Landing Title</h2>
+        <div class="mobileTitle">
+             <div class="title">
+                <h2>Write your Landing Title</h2>
+            </div>
+            <div class="description">
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+            </div>
+            <br>
+            <div class="autorsCheck">
+                <button class="buttonAuthors" type="button">Authors</button>
+                <button class="buttonCheck title-grey" type="button">Check demo</button>
+            </div>
         </div>
-        <div class="description">
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
-        </div>
-        
-        <div class="autorsCheck">
-            <button class="buttonAuthors" type="button">Authors</button>
-        <button class="buttonCheck" type="button">Check demo</button>
-        </div>
+       
         <div class="iphone">
-            <img src="img/iphone.png" alt="Mobile phone">
+            <img src="img/iPhone13.png" alt="Mobile phone">
         </div>
         
         
@@ -49,7 +52,7 @@
     <section class="authors clearfix">
         <div class="a-title">
             <div>
-                <h3>Authors</h3>
+                <h3 class="a-name">Authors</h3>
             </div>
             <div> 
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
@@ -65,19 +68,19 @@
                     <h4>
                         Mark Headers
                     </h4>
-                    <h5>
+                    <h5 class="title-grey">
                         Graphic designer
                     </h5>
                 </div>
                 <div>
-                    <p>
+                    <p class="mark-description">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.
                     </p>
                 </div>
                 <div class="social">
-                    <img src="img/in.png" alt="in social">
-                    <img src="img/insta.png" alt="instagram">
-                    <img src="img/fb.png" alt="facebook">
+                    <a href="#"><img src="img/in.png" alt="in social"></a>
+                    <a href="#"><img src="img/insta.png" alt="instagram"></a>
+                    <a href="#"><img src="img/fb.png" alt="facebook"></a>
                 </div>
             </div>
         </div>
@@ -99,13 +102,67 @@
                 <p>Analyst</p>
             </div>
         </div>
+        <div class="arrow">
+            <img src="img/arrow.png" alt="arrow">
+        </div>
 
     </section>
 
     <section class="forWho clearfix">
-        <h3>For who</h3>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
-      
+        <div class="forWhoTitle">
+            <div>
+                <h3 class="white">For who</h3>
+            </div>    
+            <div>
+                  <p class="white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>     
+        <div class="users">
+            <div class="students">
+                <div>
+                    <h4 class="white">For students</h4>
+                </div>
+                <div>
+                    <img src="img/students.png" alt="students">
+                    <p class="white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. <br>
+                    Velit officia consequat duis enim velit mollit. </p>
+                </div>
+            </div>
+            <div class="agency">
+                <div>
+                    <h4 class="white">For agency</h4>
+                </div>
+                <div>
+                    <img src="img/agency.png" alt="agency">
+                    <p class="white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. <br>
+                    Velit officia consequat duis enim velit mollit. </p>
+                </div>
+                </div>
+                <div class="freelaners">
+                <div>
+                    <h4 class="white">For freelaners</h4>
+                </div>
+                <div>
+                    <img src="img/freelaners.png" alt="freelaners">
+                    <p class="white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. <br>
+                    Velit officia consequat duis enim velit mollit. </p>
+                </div>
+                </div>
+                <div class="marketers">
+                <div>
+                    <h4 class="white">For marketers</h4>
+                </div>
+                <div>
+                    <img src="img/marketers.png" alt="marketers">
+                    <p class="white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. <br>
+                    Velit officia consequat duis enim velit mollit. </p>
+                </div>
+            </div> 
+            <div>
+                <button class="want" type="button">I want it!</button>
+            </div>  
+        </div>   
+          
     </section>
 
     <section class="demo clearfix">
@@ -137,26 +194,93 @@
 
     <section class="opinions">
         <div class="o-title">
-            <h3>Opinions</h3>
+            <h3 class="h-demo">Opinions</h3>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
         </div>
-        <div class="rate">
-            <div class="jones">
-                
+
+        <div class="rate clearfix">
+            <div class="jones-left">
+                <div class="think">
+                    <img src="img/think.png" alt="think">
+                </div>
+                <div class="jones-info">
+                    <h4>Jones David</h4>
+                    <h5>CEO Jones Inc</h5>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+                </div>
             </div>
+            <div class="jones">
+                <div class="think">
+                    <img src="img/think.png" alt="think">
+                </div>
+                <div class="jones-info">
+                    <h4>Jones David</h4>
+                    <h5>CEO Jones Inc</h5>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+                </div>
+                <div class="jones-right">
+                    <div class="think">
+                        <img src="img/think.png" alt="think">
+                    </div>
+                    <div class="jones-info">
+                        <h4>Jones David</h4>
+                        <h5>CEO Jones Inc</h5>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+                
         </div>
         
     </section>
 
     <section class="startWith">
-        <h3>Start with us!</h3>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
-        <h4>Waiting for discount?</h4>
-        <form action="">
-            <input type="email" placeholder="Type your email">
-            <br>
-            <input type="submit" placeholder="I’m waiting for discount" >
+        <div class="s-title">
+            <div>
+                <h3 class="h-demo">Start with us!</h3>
+            </div>
+            <div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+
+        <div class="phoneOrder">
+            <img src="img/iPhone13.png" alt="Phone">
+        </div>
+
+        <div class="product">
+            <div class="blue">
+                <h3>My product title</h3>
+            </div>
+            <div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+            <div class="addTo">
+                <button class="buttonAuthors" type="button">Add to cart</button>
+            </div>
+            
+        </div>
+        
+        <div class="disscount">
+            <div>
+                 <h4>Waitingnt for discount?</h4>
+            </div>
+           
+            <div>
+                <form action="">
+                    <div class="emailField">
+                        <input class="mail" type="email" placeholder="Type your email">
+                    </div>
+                    <br>
+                    <div class="waiting">
+                        <button class="buttonAuthors" type="button">I’m waiting for discount</button>
+                    </div>
+                   
+                </form>
+            </div>
+            
         </form>
+        </div>
+        
     </section>
 </body>
 </html>

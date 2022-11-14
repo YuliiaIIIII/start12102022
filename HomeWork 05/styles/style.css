@@ -9,16 +9,26 @@ body{
     clear: both;
     display: table;
   }
-  
+h3,h4,
+.landing{
+    font-weight: 600;
+}
+.menu,
+.menuButton,
+h5{
+    font-weight: 500;
+}
 h2{
     font-size: 47px;
     font-weight: 700;
+    margin: 257px 0 24px;
+    
   }
 h3{
     font-size: 36px;
-    font-weight: 600;
   }
-h4{
+h4,
+.landing{
     font-size: 27px;
   }
 h5{
@@ -27,7 +37,12 @@ h5{
 p{
     font-size: 16px;
     font-weight: 400;
+    color: #575757;
   }
+.title-grey{
+    color: #575757;
+}
+  
 header{
     position: sticky;
     top: 0;
@@ -47,8 +62,6 @@ a:hover{
 .landing{
     padding-top: 19px;
     float: left;
-    font-size: 27px;
-    font-weight: 600;
 }
 .menu,
 .menuButton{
@@ -70,25 +83,67 @@ a:hover{
     color: #2203E4; 
     padding: 14px 16px 8px;
 }
-
+.buyNow:hover,
+.buttonAuthors:hover,
+.buttonCheck:hover,
+.addTo:hover,
+.want:hover,
+.waiting:hover{
+    text-decoration: underline;
+    color: rgb(26, 9, 90);
+    background-color: rgb(159, 208, 253);
+}
 .mobile,
 .authors,
 .opinions,
 .a-title,
+.forWhoTitle,
+.users,
+.s-title,
+.h-demo,
+.disscount,
 h3,h4,h5,
 p{
     margin: 0 auto;
 }
 .mobile{
     width: 1100px;
+    padding-left: 10px;
+    
 }
-.title,
-.description,
-.autorsCheck{
+.mobileTitle{
     float: left;
 }
+/* .autorsCheck{
+    margin-top: 24px;
+} */
+
 .iphone{
     float: right;
+    margin-top: 120px;
+    margin-left: 48px;  
+}
+
+.buttonAuthors,
+.buttonCheck{
+    padding: 10px 16px;
+}
+.buttonAuthors,
+.waiting{
+    background-color: #0062FF;
+    color: #fff;
+    border: none;
+    
+}
+.buttonAuthors{
+    margin-right: 24px;
+}
+.buttonCheck{
+    /* color: #575757; */
+    background-color: #fff;
+    border: none;
+    outline: 1px solid #575757;
+    outline-offset: -1px;
 }
 .authors,
 .forWho,
@@ -100,24 +155,50 @@ p{
 .authors{
     width: 1190px;  
 }
-.a-title{
+.a-title,
+.forWhoTitle,
+.s-title{
     width: 611px;
 }
+.a-name{
+    margin-bottom: 12px;
+}
+.a-info{
+    margin-top: 36px;
+}
+
 .avatar{
-    padding: 138px 43px 10px 0;
+    margin:10px 34px 10px 0;
 }
 .infoMark{
     text-align: left;
 }
+.mark-description{
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.social>a{
+    padding: 0 19px 0 0;
+}
 .avatar,
 .infoMark,
-.demoInfo{
+.demoInfo,
+.think,
+.jones-info,
+.students,
+.agency{
     float: left;
 }
+.list{
+    text-align: left;
+    margin: 7px 73px 7px 0;
+}
 .list,
-.demoIntro{
-    float: right;
-    
+.demoIntro,
+.arrow,
+.freelaners,
+.marketers{
+    float: right; 
 }
 .gregory>h5,
 .henry>h5{
@@ -127,19 +208,42 @@ p{
 .henry>p{
     color: #FFBE0B;
 }
+.gregory,
+.mark{
+    margin-bottom: 8px;
+}
+.arrow{
+    margin-top: 80px;
+    margin-right: 8px;
+}
 
 .forWho{
     margin: 143px auto 63px;
     background-color: #0062FF;
     margin: 143px auto 0;
+    padding: 71px 0;
+    
+}
+
+.white{
+    color: #fff;
+}
+.users{
+    width: 1262px;
+    text-align: left;
+}
+.want{
+    background-color: #fff;
+    padding: 10px 16px;
+    color: #2203E4;
+    border: 1px solid #2203E4;
+    margin-bottom: 72px;
 }
 .demo{
     width: 1103px;
     margin: 63px auto 130px;
 }
 .h-demo{
-    margin: 0 auto;
-    padding-top: 7px;
     padding-bottom: 12px;
 }
 .videoDemo{
@@ -156,17 +260,81 @@ p{
 }
 .opinions{
     background-color: #FFBE0B;
-    padding-top: 67px;
+    padding: 67px 0;
+    overflow: hidden;
+}
+.o-title>h3{
     padding-bottom: 12px;
 }
+.o-title>p{
+    padding-bottom: 42px;
+}
+
 .jones{
+    background-color: #fff;
+}
+.jones,
+.jones-left,
+.jones-right{
     width: 702px;
     height: 230px;
-    background-color: #fff;
     margin: 0 auto;
     border-radius: 12px;
+    text-align: left;
+    padding: 59.5px 0;
 }
+.jones-left,
+.jones-right{
+    background-color: rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.76);
+}
+.jones-info>p{
+    color: rgba(255, 255, 255, 0.35);
+}
+
 .startWith{
     width: 951px;
     margin: 89px auto 104px;
+}
+.phoneOrder>img{
+    width: 327px;
+    height: 322px;
+}
+.product{
+    margin: 74px auto;
+    text-align: left;
+    
+}
+.blue{
+    color: #2203E4;
+    margin: 16px auto;
+}
+.addTo{
+    margin-top: 16px;
+}
+
+.disscount,
+.mail,
+.waiting{
+    width: 508px;
+}
+.emailField{
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+.mail{
+    height: 70px;
+    padding: 25px 0 25px 23px;
+    background-color: rgba(58, 134, 255, 0.2);
+    border: none;
+    border-radius: 12px;
+    color: #2203E4;
+}
+::placeholder{
+    color: #2203E4;
+    font-size: 16px;
+    font-weight: 400;
+}
+.waiting{
+    margin: 0 auto;
 }
