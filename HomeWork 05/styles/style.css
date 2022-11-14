@@ -21,7 +21,7 @@ h5{
 h2{
     font-size: 47px;
     font-weight: 700;
-    margin: 257px 0 24px;
+    margin: 0 0 24px;
     
   }
 h3{
@@ -112,19 +112,25 @@ button{
 .mobile{
     width: 1100px;
     padding-left: 10px;
-    
+    overflow: hidden;
+}
+.a-title,
+.forWhoTitle,
+.s-title,
+.mobileTitle{
+    width: 611px;
 }
 .mobileTitle{
     float: left;
+    margin: 258px 48px 258px 0;
+    
 }
-/* .autorsCheck{
-    margin-top: 24px;
-} */
 
 .iphone{
     float: right;
-    margin-top: 120px;
-    margin-left: 48px;  
+    margin: 119px -50px 0 0;
+    /* margin-top: 120px;
+    margin-left: 48px;   */
 }
 
 .buttonAuthors,
@@ -158,11 +164,7 @@ button{
 .authors{
     width: 1190px;  
 }
-.a-title,
-.forWhoTitle,
-.s-title{
-    width: 611px;
-}
+
 .a-name{
     margin-bottom: 12px;
 }
