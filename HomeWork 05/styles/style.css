@@ -22,7 +22,6 @@ h2{
     font-size: 47px;
     font-weight: 700;
     margin: 0 0 24px;
-    
   }
 h3{
     font-size: 36px;
@@ -126,8 +125,7 @@ button{
 }
 .mobileTitle{
     float: left;
-    margin: 258px 48px 258px 0;
-    
+    margin: 258px 48px 258px 0; 
 }
 
 .iphone{
@@ -144,7 +142,6 @@ button{
     background-color: #0062FF;
     color: #fff;
     border: none;
-    
 }
 .buttonAuthors{
     margin-right: 24px;
@@ -166,14 +163,12 @@ button{
 .authors{
     width: 1190px;  
 }
-
 .a-name{
     margin-bottom: 12px;
 }
 .a-info{
     margin-top: 36px;
 }
-
 .avatar{
     margin:10px 34px 10px 0;
 }
@@ -186,10 +181,6 @@ button{
 }
 .social>a{
     padding: 0 19px 0 0;
-}
-.user-left,
-.user-right{
-    display: inline-block;
 }
 .avatar,
 .infoMark,
@@ -224,7 +215,6 @@ button{
 }
 .mark{
     position: relative;
-    
 }
 .mark>h4::before{
     content: "";
@@ -257,8 +247,8 @@ p.white{
     text-align: left;
     margin-bottom: 46px;
 }
-.user-left>img,
-.user-right>img{
+.user-left,
+.user-right{
     display: inline-block;
 }
 .user-left{
@@ -296,7 +286,6 @@ p.white{
 .opinions{
     background-color: #FFBE0B;
     padding: 67px 0;
-
 }
 .o-title>h3{
     padding-bottom: 12px;
@@ -328,7 +317,6 @@ p.white{
     bottom: 0;
     border-radius: 12px;
     right: 735px;
-    
 }
 .jones::after{
     content: "";
@@ -341,7 +329,6 @@ p.white{
     bottom: 0;
     border-radius: 12px;
 }
-
 
 .jones-info>h5{
     margin-bottom: 16px;
@@ -391,7 +378,6 @@ p.white{
     margin: 74px auto;
     padding-top: 74px;
     text-align: left;
-    
 }
 .productTitle{
     margin: 16px 0;
@@ -405,14 +391,12 @@ p.white{
     position: relative;
     display: inline-block;
     padding-left: 158px;
-    
 }
 .reviews::before{
     content: "";
     display: block;
     width: 158px;
     height: 26px;
-    /* background-color: blueviolet; */
     background-image: url('../img/stars.png');
     position: absolute;
     left: 0;
