@@ -34,7 +34,8 @@ h4,
 h5{
     font-size: 21px;
   }
-p{
+p,
+.reviews{
     font-size: 16px;
     font-weight: 400;
     color: #575757;
@@ -96,12 +97,15 @@ a:hover{
 .mobile,
 .authors,
 .opinions,
+.img-over,
 .a-title,
 .forWhoTitle,
 .users,
 .s-title,
 .h-demo,
 .disscount,
+.mail,
+.waiting,
 h3,h4,h5,
 p{
     margin: 0 auto;
@@ -129,8 +133,6 @@ button{
 .iphone{
     float: right;
     margin: 119px -50px 0 0;
-    /* margin-top: 120px;
-    margin-left: 48px;   */
 }
 
 .buttonAuthors,
@@ -148,7 +150,6 @@ button{
     margin-right: 24px;
 }
 .buttonCheck{
-    /* color: #575757; */
     background-color: #fff;
     border: none;
     outline: 1px solid #575757;
@@ -158,7 +159,8 @@ button{
 .forWho,
 .demo,
 .opinions,
-.startWith{
+.startWith,
+.waitingQuestion{
     text-align: center;
 }
 .authors{
@@ -194,16 +196,17 @@ button{
 .demoInfo,
 .think,
 .jones-info,
-.user-left{
+.user-left,
+.phoneOrder{
     float: left;
 }
 .list{
     text-align: left;
     margin: 7px 73px 7px 0;
+    padding-left: 18px;
 }
 .list,
 .demoIntro,
-.arrow,
 .user-right{
     float: right; 
 }
@@ -219,9 +222,19 @@ button{
 .mark{
     margin-bottom: 8px;
 }
-.arrow{
-    margin-top: 80px;
-    margin-right: 8px;
+.mark{
+    position: relative;
+    
+}
+.mark>h4::before{
+    content: "";
+    display: block;
+    width: 11px;
+    height: 16px;
+    background-image: url('../img/arrow.png');
+    position: absolute;
+    left: -18px;
+    top: 15px;
 }
 
 .forWho{
@@ -283,7 +296,7 @@ p.white{
 .opinions{
     background-color: #FFBE0B;
     padding: 67px 0;
-    overflow: hidden;
+
 }
 .o-title>h3{
     padding-bottom: 12px;
@@ -291,23 +304,84 @@ p.white{
 .o-title>p{
     padding-bottom: 42px;
 }
-
-.jones{
-    background-color: #fff;
+.img-over{
+    width: 1270px;
+    overflow: hidden;
 }
 .jones{
     width: 702px;
-    height: 230px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 12px;
     text-align: left;
-    padding: 59.5px 0;
+    padding: 59px 0 59px 74px;
+    position: relative;
+    display: inline-block;
+}
+.jones::before{
+    content: "";
+    display: block;
+    width: 702px;
+    height: 230px;
+    background-image: url('../img/FrameRate.png');
+    position: absolute;
+    bottom: 0;
+    border-radius: 12px;
+    right: 735px;
+    
+}
+.jones::after{
+    content: "";
+    display: block;
+    width: 702px;
+    height: 230px;
+    background-image: url('../img/FrameRate.png');
+    position: absolute;
+    left: 735px;
+    bottom: 0;
+    border-radius: 12px;
 }
 
+
+.jones-info>h5{
+    margin-bottom: 16px;
+}
+.jones-info>h4{
+    display: inline-block;
+}
+.jones-info{
+    position: relative;
+   
+}
+.jones-info>h4::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 41px;
+    background-image: url('../img/think.png');
+    position: absolute;
+    left: -59px;
+    top: 34px;
+}
+.jones-info>h4::after{
+    content: "";
+    display: block;
+    width: 158px;
+    height: 26px;
+    background-image: url('../img/stars.png');
+    position: absolute;
+    top: 0;
+    left: 175px;
+}
 .startWith{
     width: 951px;
     margin: 89px auto 104px;
+}
+.s-title{
+    margin-bottom: 74px;
+}
+.phoneOrder{
+    margin-right: 13px;
 }
 .phoneOrder>img{
     width: 327px;
@@ -315,12 +389,33 @@ p.white{
 }
 .product{
     margin: 74px auto;
+    padding-top: 74px;
     text-align: left;
     
+}
+.productTitle{
+    margin: 16px 0;
 }
 .blue{
     color: #2203E4;
     margin: 16px auto;
+}
+.reviews{
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding-left: 158px;
+    
+}
+.reviews::before{
+    content: "";
+    display: block;
+    width: 158px;
+    height: 26px;
+    /* background-color: blueviolet; */
+    background-image: url('../img/stars.png');
+    position: absolute;
+    left: 0;
 }
 .addTo{
     margin-top: 16px;
@@ -331,9 +426,8 @@ p.white{
 .waiting{
     width: 508px;
 }
-.emailField{
-    margin-top: 28px;
-    margin-bottom: 14px;
+.waitingQuestion>h4{
+    margin-bottom: 28px;
 }
 .mail{
     height: 70px;
@@ -347,7 +441,4 @@ p.white{
     color: #2203E4;
     font-size: 16px;
     font-weight: 400;
-}
-.waiting{
-    margin: 0 auto;
 }
