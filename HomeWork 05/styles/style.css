@@ -156,8 +156,8 @@ button{
 .forWho,
 .demo,
 .opinions,
-.startWith,
-.waitingQuestion{
+.s-title,
+.waiting{
     text-align: center;
 }
 .authors{
@@ -247,9 +247,14 @@ p.white{
     text-align: left;
     margin-bottom: 46px;
 }
-.user-left,
-.user-right{
+.user-left>div,
+.user-right>div{
     display: inline-block;
+    vertical-align: middle;
+}
+.user-left>div>img,
+.user-right>div>img{
+    margin-right: 34px;
 }
 .user-left{
     margin-right: 48px;
@@ -303,7 +308,7 @@ p.white{
     background-color: #fff;
     border-radius: 12px;
     text-align: left;
-    padding: 59px 0 59px 74px;
+    padding: 59.5px 0 59.5px 74px;
     position: relative;
     display: inline-block;
 }
@@ -313,6 +318,7 @@ p.white{
     width: 702px;
     height: 230px;
     background-image: url('../img/FrameRate.png');
+    background-position: center;
     position: absolute;
     bottom: 0;
     border-radius: 12px;
@@ -324,6 +330,7 @@ p.white{
     width: 702px;
     height: 230px;
     background-image: url('../img/FrameRate.png');
+    background-position: center;
     position: absolute;
     left: 735px;
     bottom: 0;
