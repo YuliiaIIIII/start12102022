@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #E5E5E5;
-    
+    background-color: #E5E5E5; 
 }
 .clearfix:after {
     content: "";
@@ -14,7 +13,6 @@ body{
     display: flex;
     width: 100%;
     padding: 41px 120px 36px 120px;
-   
 }
 .title,
 .links{
@@ -23,15 +21,10 @@ width: 50%;
 .menu{
     display: flex;
 }
-.guide{
-
-}
 .background{
     display: flex;
-    flex;
     width: 812px;
     height: 812px;
     background-image: url(../images/bg-full.png);
     border-radius: 50%;
-    
 }
