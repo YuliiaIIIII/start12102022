@@ -95,6 +95,16 @@ a:hover{
 }
 .mobile,
 .authors,
+.infoMark>div>h4,
+.infoMark>div>h5,
+.gregory>h5,
+.mark>h4,
+.mark>h5,
+.henry>h5,
+.white,
+.jones-info>h4,
+.jones-info>h5,
+.d-info>h5,
 .opinions,
 .img-over,
 .a-title,
@@ -102,10 +112,7 @@ a:hover{
 .users,
 .s-title,
 .h-demo,
-.disscount,
-.mail,
-.waiting,
-h3,h4,h5,
+h3,
 p{
     margin: 0 auto;
 }
@@ -143,7 +150,7 @@ button{
     color: #fff;
     border: none;
 }
-.buttonAuthors{
+.autorsCheck>.buttonAuthors{
     margin-right: 24px;
 }
 .buttonCheck{
@@ -413,18 +420,24 @@ p.white{
 .addTo{
     margin-top: 16px;
 }
-.disscount,
-.mail,
-.waiting{
+
+.request,
+.mail{
     width: 508px;
 }
-.waitingQuestion>h4{
-    margin-bottom: 28px;
+/* .question{
+    width: 508px;
+} */
+/* .question{
+    text-align: center;
+} */
+.request{
+    margin: 0 auto;
 }
 
 .mail{
-    height: 70px;
-    padding: 25px 0 25px 23px;
+    padding: 25px 23px;
+    margin: 28px 0 14px 0;
     background-color: rgba(58, 134, 255, 0.2);
     border: none;
     border-radius: 12px;
