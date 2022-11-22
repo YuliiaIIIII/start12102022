@@ -86,7 +86,7 @@ a:hover{
 .buyNow:hover,
 .buttonAuthors:hover,
 .buttonCheck:hover,
-.addTo:hover,
+.buttonAddTo:hover,
 .want-button:hover,
 .waiting:hover{
     text-decoration: underline;
@@ -141,10 +141,12 @@ button{
 }
 
 .buttonAuthors,
-.buttonCheck{
+.buttonCheck,
+.buttonAddTo{
     padding: 10px 16px;
 }
 .buttonAuthors,
+.buttonAddTo,
 .waiting{
     background-color: #0062FF;
     color: #fff;
@@ -419,6 +421,7 @@ p.white{
 }
 .addTo{
     margin-top: 16px;
+    
 }
 .question>h4{
     float: left;
