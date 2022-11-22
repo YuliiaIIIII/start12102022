@@ -6,11 +6,7 @@ body{
     font-family: 'Avenir', sans-serif;
     margin: 0 auto;
 }
-.clearfix:after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
 header,
 section,
 footer{
@@ -30,7 +26,7 @@ footer{
     flex-direction: column;
 }
 header{
-    position: sticky;
+    position: sticky; /*не працює з flex? чи проблема в іншому?*/
     display: flex;
     margin: 41px auto 36px;
     margin-top: 41px;
@@ -45,13 +41,14 @@ header{
     justify-content: left;
 }
 .title>a{
-    font-size: 18px;
+    font-size: 18px; 
     font-weight: 700;
     color: #BC436A;
 }
 .menu{
     display: flex;
-    justify-content: right; 
+    /* justify-content: right; */
+
 }
 .links,
 .bookGuide{
@@ -64,7 +61,9 @@ header{
 }
 .links{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    padding: 8px 0;
 }
 a{
     text-decoration: none;
@@ -79,6 +78,9 @@ a:hover{
     color: #FFFFFF;
     font-size: 16px;
     border: none;
+    padding: 8px;
+    border-radius: 4px;
+    
 }
 .bookGuide:hover{
     background-color: rgb(219, 248, 176);
@@ -100,25 +102,38 @@ footer{
 .bg-title{
     display: flex;
 }
-.bg-img{
-    
-    justify-content: flex-end;
-}
 .bg-picture{
-    
     width: 812px;
     height: 812px;
     background-image: url(../images/bg-full.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left center;
     border-radius: 50%;
-    
     /* margin-left: -94px; */
 }
-.bg-img,
+/* .bg-img, */
 .description,
 .where{
-    width: 40%;
+    width: 50%;
+}
+.where>p{
+    margin: 229px 0 0 0;
+    padding-right: 60.66%;
+}
+.arrow{
+    width: 100%;
+}
+.arrow::after{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/arrow1.png');
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 22%;
 }
 .countryBar{
     display: flex;
