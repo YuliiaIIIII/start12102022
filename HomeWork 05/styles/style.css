@@ -37,7 +37,7 @@ p,
 .reviews{
     font-size: 16px;
     font-weight: 400;
-    color: #575757;
+    color: #575757c5;
   }
 .title-grey{
     color: #575757;
@@ -420,17 +420,15 @@ p.white{
 .addTo{
     margin-top: 16px;
 }
-
+.question>h4{
+    float: left;
+    margin: 0 0 0 330px;
+}
 .request,
 .mail{
     width: 508px;
 }
-/* .question{
-    width: 508px;
-} */
-/* .question{
-    text-align: center;
-} */
+
 .request{
     margin: 0 auto;
 }
