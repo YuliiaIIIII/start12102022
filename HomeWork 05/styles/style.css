@@ -425,7 +425,8 @@ p.white{
 }
 .question>h4{
     float: left;
-    margin: 0 0 0 330px;
+    margin: 0 0;
+    text-align: center;
 }
 .request,
 .mail{
