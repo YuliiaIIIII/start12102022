@@ -10,7 +10,7 @@ header,
 .bg-wrapper,
 .countryBar,
 footer{
-    width: 84%;
+    width: 87%;
 }
 .bg-wrapper,
 .countryBar,
@@ -128,9 +128,10 @@ footer{
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
-    border-radius: 2px;
+    border-radius: 6px;
     padding: 30px 33px 29px 38px;
-    margin: 33px 0 72px;
+    margin-top: 33px;
+    margin-bottom: 72px;
 } 
 .border{
     border-bottom: 1px solid #FFFFFF;
@@ -172,7 +173,8 @@ footer{
 }
 .see{
     position: relative;
-    margin: 0 0;
+    margin: 0 0 80px 0;
+    padding-top: 5px;
 }
 .see>a:hover{
     text-decoration: dotted;
