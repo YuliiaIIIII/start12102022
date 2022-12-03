@@ -8,20 +8,18 @@ body{
 }
 
 header,
-section,
+.bg-wrapper,
 footer{
     width: 84%;
 }
-section,
+.bg-wrapper,
 .countryBar,
 footer{
     margin: 0 auto;
 }
-/*section{
-    margin: 0 auto;
-    display: flex; 
-}*/
+
 .bg-title{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -91,39 +89,38 @@ footer{
     color: #7A7A7A;
     font-size: 18px;
 }
+.bg-picture{
+    margin: 0 0;
+    width: 812px;
+    height: 812px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 .textTitle{
     color: #333;
     font-size: 36px;
     font-weight: 800;
+    margin: 187px 0 0 0;
 }
 .colorText{
     color: #BC436A;
 }
-.bg-title{
-    display: flex;
+.textP{
+    margin: 33px 0 0 0;
 }
-.bg-picture{
-    width: 812px;
-    height: 812px;
-    background-image: url(../images/bg-full.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    border-radius: 50%;
-    /* margin-left: -94px; */
-}
-/* .bg-img, */
-.description,
-.where{
-    width: 50%;
-}
+
 .where>p{
     margin: 229px 0 0 0;
     padding-right: 60.66%;
 }
-.arrow{
+/* .arrow{
     width: 100%;
+} */
+.where{
+    position: relative;
 }
-.arrow::after{
+.where::after{
     content: "";
     display: block;
     width: 24px;
@@ -132,8 +129,8 @@ footer{
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
-    top: 0;
-    left: 22%;
+    left: 212px;
+    bottom: 0;
 }
 .countryBar{
     display: flex;
