@@ -132,10 +132,33 @@ footer{
     padding: 30px 33px 29px 38px;
     margin-top: 33px;
     margin-bottom: 72px;
-} 
-.border{
-    border-bottom: 1px solid #FFFFFF;
-    width: 21%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.countryFlex{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+input{
+    position: relative;
+    width: 30%;
+    flex-direction: row;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #386E41;
+    padding: 8px 21px;
+}
+::placeholder{
+   border-bottom: 2px solid #E5E5E5; 
+   color: #E5E5E5;
+   
+}
+input>.border{
     position: relative;
 }
 .border::after{
