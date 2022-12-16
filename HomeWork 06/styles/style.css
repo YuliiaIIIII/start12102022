@@ -144,34 +144,34 @@ form{
     justify-content: space-between;
 }
 input{
-    position: relative;
-    width: 30%;
-    flex-direction: row;
+    /* position: relative;
+    flex-direction: row; */
     outline: none;
     box-shadow: none;
     border: none;
     background-color: #386E41;
     padding: 8px 21px;
+    color: #FFFFFF;
 }
 ::placeholder{
    border-bottom: 2px solid #E5E5E5; 
    color: #E5E5E5;
    
 }
-input>.border{
+.border{
     position: relative;
 }
 .border::after{
     content: "";
-    display: block;
+    display: inline-block;
     width: 24px;
     height: 24px;
     background-image: url('../images/arrowWhite.png');
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
-    top: 0;
-    right: 4%; 
+    bottom: 8px;
+    right: 30px;
 }
 .searchPlace{
     display: flex;
